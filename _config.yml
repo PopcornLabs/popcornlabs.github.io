@@ -1,26 +1,18 @@
-url: https://popcornlabs.github.io
+url: https://www.popcornlabs.com
 baseurl: ""
 
 # Site settings
-title: Popcorn Labs Inc.
-description: We are a full service mobile and web software development shop, specializing in iOS, Android, Flutter, and Angular projects
+title: Popcorn Labs
+description: Personal projects, apps, and thoughts on building software
 email: info@popcornlabs.com
-tagline: Full service mobile and web software development
+tagline: Apps & ideas by Sean Langley
 
-# Theme
-theme: jekyll-theme-midnight
+# Theme (custom, no gem)
 
 # Social networks
 social:
-  - title: twitter
-    url: http://twitter.com/popcornlabsinc
   - title: github
-    url: http://github.com/PopcornLabs
-
-# Postal address
-address:
-  - line: 1010-109 Front Street East
-  - line: Toronto, Ontario, Canada, M5A 4P7
+    url: https://github.com/PopcornLabs
 
 # Build settings
 markdown: kramdown

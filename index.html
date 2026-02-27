@@ -2,69 +2,30 @@
 layout: default
 ---
 
-<h2>Welcome!</h2>
-<p>We build software that meets your needs.</p>
+<div class="landing">
+  <img class="landing-logo" src="/img/logos/Logo@2x.png" alt="{{ site.title }}">
 
-<hr>
+  <div class="landing-photo">
+    <img src="/img/about/profile.png" alt="Sean Langley">
+  </div>
 
-<h2>Services</h2>
-<p>{{ site.description }}</p>
+  <h1 class="landing-name">Sean Langley</h1>
+  <p class="landing-role">iOS Developer &amp; Solopreneur</p>
 
-<table>
-  <tr>
-    <td><strong><i class="fa fa-laptop"></i> Software Development</strong><br>We will work with you to conceptualize, design, build and deploy your project on mobile and web.</td>
-  </tr>
-  <tr>
-    <td><strong><i class="fa fa-tasks"></i> Project Management</strong><br>We will help you manage your software project. We believe in an Agile methodology to build your software. You are involved every step of the way.</td>
-  </tr>
-  <tr>
-    <td><strong><i class="fa fa-wrench"></i> Maintenance</strong><br>Already have a product? Have some small changes. We can help you get back on track. No change is too small.</td>
-  </tr>
-</table>
+  <p class="landing-bio">I'm Sean — I build apps and tinker with ideas under the Popcorn Labs banner. I'm passionate about crafting delightful mobile experiences with Swift and SwiftUI, and shipping products that people actually enjoy using.</p>
 
-<hr>
+  <div class="landing-links">
+    <a href="/apps/">My Apps</a>
+    <a href="mailto:{{ site.email }}">Contact</a>
+  </div>
 
-<h2>Our Clients</h2>
-
-<table>
-  <tr>
-    <td><img src="img/logos/bmo.png" alt="BMO" style="max-height:60px;"></td>
-    <td><img src="img/logos/deveron.png" alt="Deveron" style="max-height:60px;"></td>
-    <td><img src="img/logos/fixmo.png" alt="Fixmo" style="max-height:60px;"></td>
-    <td><img src="img/logos/swift.png" alt="Swift" style="max-height:60px;"></td>
-  </tr>
-</table>
-
-<hr>
-
-<h2>Contact Us</h2>
-
-<form name="sentMessage" id="contactForm" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdfl41daLsGLqp2bpg8bnozi4sQYkEpgh9URtNikoQzNEjRpQ/formResponse?embedded=true" target="hidden_iframe">
-  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-  <p>
-    <input name="entry.416724767" type="text" placeholder="Your Name *" style="width:100%;padding:8px;background:#191919;border:1px solid #434343;color:#f0e7d5;border-radius:2px;" required>
-  </p>
-  <p>
-    <input name="entry.1604442346" type="email" placeholder="Your Email *" style="width:100%;padding:8px;background:#191919;border:1px solid #434343;color:#f0e7d5;border-radius:2px;" required>
-  </p>
-  <p>
-    <input name="entry.1109679970" type="tel" placeholder="Your Phone *" style="width:100%;padding:8px;background:#191919;border:1px solid #434343;color:#f0e7d5;border-radius:2px;" required>
-  </p>
-  <p>
-    <textarea name="entry.470364973" placeholder="Your Message *" rows="5" style="width:100%;padding:8px;background:#191919;border:1px solid #434343;color:#f0e7d5;border-radius:2px;" required></textarea>
-  </p>
-  <p>
-    <button type="submit" style="padding:10px 20px;background:linear-gradient(#93bd20, #659e10);border:1px solid #5d910b;border-radius:2px;color:white;cursor:pointer;font-size:14px;">Send Message</button>
-  </p>
-</form>
-
-<hr>
-
-<footer>
-  <p>Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</p>
-  <p>
+  <div class="landing-social">
     {% for network in site.social %}
-      <a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-lg"></i></a>&nbsp;&nbsp;
+      <a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-lg"></i></a>
     {% endfor %}
-  </p>
-</footer>
+  </div>
+
+  <footer>
+    <p>&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</p>
+  </footer>
+</div>
