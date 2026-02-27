@@ -1,57 +1,23 @@
 url: https://popcornlabs.github.io
-baseurl: /
+baseurl: ""
 
 # Site settings
 title: Popcorn Labs Inc.
-email: info@popcornlabs.com
 description: We are a full service mobile and web software development shop, specializing in iOS, Android, Flutter, and Angular projects
+email: info@popcornlabs.com
+tagline: Full service mobile and web software development
 
+# Theme
+theme: jekyll-theme-midnight
 
-# # Team names, titles and social links
-# people:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
-
-# - name: Larry Parker
-#   pic: 2
-#   position: Lead Marketer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: linkedin
-#       url: #
-
-# - name: Diana Petersen
-#   pic: 3
-#   position: Lead Developer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: google-plus
-#       url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: twitter
     url: http://twitter.com/popcornlabsinc
-  - title: facebook
-    url:
   - title: github
     url: http://github.com/PopcornLabs
 
-# Postal address (add as many lines as necessary)
+# Postal address
 address:
   - line: 1010-109 Front Street East
   - line: Toronto, Ontario, Canada, M5A 4P7
@@ -59,3 +25,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-seo-tag

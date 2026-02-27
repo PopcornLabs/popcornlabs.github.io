@@ -1,0 +1,26 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+/* Custom overrides for Popcorn Labs */
+table img {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  color: #696969;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #b6b6b6;
+}
+
+footer a:hover {
+  color: #ffcc00;
+}
