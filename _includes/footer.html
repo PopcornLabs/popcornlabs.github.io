@@ -7,17 +7,16 @@
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
+                        {% if network.url and network.url != "" %}
+                        <li class="list-inline-item"><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a></li>
+                        {% endif %}
                         {% endfor %}
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="#">Terms of Use</a></li>
                     </ul>
                 </div>
             </div>

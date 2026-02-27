@@ -1,55 +1,17 @@
 url: https://popcornlabs.github.io
-baseurl: /
+baseurl: ""
 
 # Site settings
 title: Popcorn Labs Inc.
 email: info@popcornlabs.com
 description: We are a full service mobile and web software development shop, specializing in iOS, Android, Flutter, and Angular projects
 
-
-# # Team names, titles and social links
-# people:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
-
-# - name: Larry Parker
-#   pic: 2
-#   position: Lead Marketer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: linkedin
-#       url: #
-
-# - name: Diana Petersen
-#   pic: 3
-#   position: Lead Developer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: google-plus
-#       url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
-  - title: twitter
-    url: http://twitter.com/popcornlabsinc
-  - title: facebook
-    url:
+  - title: x-twitter
+    url: https://x.com/popcornlabsinc
   - title: github
-    url: http://github.com/PopcornLabs
+    url: https://github.com/PopcornLabs
 
 # Postal address (add as many lines as necessary)
 address:
