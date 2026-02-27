@@ -241,11 +241,9 @@ Upon termination or discontinuation, your license to use the App ends. Sections 
 
 ## 13. Governing Law and Dispute Resolution
 
-These Terms shall be governed by and construed in accordance with the laws of the State of __________________, United States, without regard to its conflict of law provisions.
+These Terms shall be governed by and construed in accordance with the laws of the Province of Ontario, Canada, without regard to its conflict of law provisions.
 
-Any dispute arising out of or relating to these Terms or the App shall be resolved exclusively in the state or federal courts located in __________________, and you consent to the personal jurisdiction of such courts.
-
-*[Note: Insert your applicable state and jurisdiction before publishing.]*
+Any dispute arising out of or relating to these Terms or the App shall be resolved exclusively in the state or federal courts located in Province of Ontario, Canada, and you consent to the personal jurisdiction of such courts.
 
 ---
 
@@ -257,7 +255,7 @@ If any provision of these Terms is found to be unenforceable or invalid by a cou
 
 ## 15. Entire Agreement
 
-These Terms, together with our [Privacy Policy](https://www.popcornlabs.com/apps/soothe/privacy/) and Apple's Licensed Application End User License Agreement, constitute the entire agreement between you and Popcorn Labs regarding your use of the App, and supersede all prior agreements and understandings.
+These Terms, together with our [Privacy Policy](https://www.popcornlabs.com/apps/soothe/privacy.html) and Apple's Licensed Application End User License Agreement, constitute the entire agreement between you and Popcorn Labs regarding your use of the App, and supersede all prior agreements and understandings.
 
 ---
 
@@ -287,4 +285,4 @@ Website: [popcornlabs.com](https://popcornlabs.com)
 | **Last Updated** | February 26, 2026 |
 | **Published by** | Popcorn Labs |
 | **Website** | [www.popcornlabs.com](https://www.popcornlabs.com) |
-| **Hosted at** | [popcornlabs.com/apps/soothe/terms](https://www.popcornlabs.com/apps/soothe/terms/) |
+| **Hosted at** | [popcornlabs.com/apps/soothe/terms](https://www.popcornlabs.com/apps/soothe/terms.html) |
