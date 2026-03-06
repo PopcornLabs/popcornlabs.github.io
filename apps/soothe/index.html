@@ -1,9 +1,268 @@
 ---
 layout: default
-title: Soothe — Popcorn Labs
+title: Soothe — Calm in Your Pocket — Popcorn Labs
 ---
 
 <nav class="breadcrumb"><a href="/">Home</a> / <a href="/apps/">Apps</a> / Soothe</nav>
 
-<h1>Soothe</h1>
-<p>More details coming soon.</p>
+<style>
+  .soothe-hero {
+    text-align: center;
+    padding: 3rem 0 2rem;
+  }
+
+  .soothe-hero-icon {
+    width: 148px;
+    height: 148px;
+    border-radius: 32px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 12px 32px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+  }
+
+  .soothe-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+  }
+
+  .soothe-hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .soothe-hero .app-store-badge img {
+    height: 48px;
+    width: auto;
+  }
+
+  .soothe-section {
+    margin: 3rem 0;
+  }
+
+  .soothe-section h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+  }
+
+  .feature-card .feature-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .tool-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    list-style: none;
+  }
+
+  .tool-list li {
+    padding: 0.4rem 0;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tool-list li strong {
+    color: var(--text);
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #1a3a5c 0%, #0d1117 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .highlight-box h2 {
+    margin-top: 0;
+  }
+
+  .highlight-box p {
+    color: var(--text-muted);
+    max-width: 520px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .privacy-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .privacy-badge {
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    border-radius: 100px;
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .soothe-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .soothe-links a {
+    color: var(--text-muted);
+  }
+
+  .soothe-links a:hover {
+    color: var(--accent);
+  }
+
+  .soothe-links .sep {
+    color: var(--border);
+  }
+
+  @media (max-width: 600px) {
+    .soothe-hero h1 { font-size: 2rem; }
+
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .tool-list {
+      grid-template-columns: 1fr;
+    }
+
+    .soothe-hero-icon {
+      width: 112px;
+      height: 112px;
+      border-radius: 24px;
+    }
+  }
+</style>
+
+<div class="soothe-hero">
+  <img class="soothe-hero-icon" src="/img/apps/soothe/appIcon.png" alt="Soothe app icon">
+  <h1>Soothe</h1>
+  <p class="subtitle">Evidence-based calming techniques, guided by professional voice narration. Relief when you need it most.</p>
+  <a class="app-store-badge" href="https://apps.apple.com/us/app/soothe-anxiety-panic-relief/id6755748515"><img src="/img/apps/app-store-badge.svg" alt="Download on the App Store"></a>
+</div>
+
+<hr>
+
+<div class="soothe-section">
+  <h2>What is Soothe?</h2>
+  <p>Soothe is a crisis-intervention and anxiety relief app for iOS. When anxiety, panic, or overwhelming stress hits, Soothe guides you through proven calming techniques with step-by-step audio narration — no therapist appointment needed, no internet required.</p>
+  <p>Built on evidence-based practices used by mental health professionals, each exercise is designed to activate your body's natural calming response and bring you back to a grounded state.</p>
+</div>
+
+<div class="soothe-section">
+  <h2>Guided Calming Tools</h2>
+  <p>A library of techniques, each professionally narrated and ready in seconds:</p>
+  <ul class="tool-list">
+    <li><strong>Paced Breathing</strong> — Slow, rhythmic breathing patterns</li>
+    <li><strong>Grounding (5-4-3-2-1)</strong> — Sensory awareness exercises</li>
+    <li><strong>Progressive Muscle Relaxation</strong> — Tension and release sequences</li>
+    <li><strong>Cold Splash</strong> — Dive reflex activation technique</li>
+    <li><strong>Distanced Self-Talk</strong> — Reframe anxious thoughts aloud</li>
+    <li><strong>Yoga Nidra</strong> — Guided body-scan meditation</li>
+    <li><strong>Gratitude Meditation</strong> — Shift focus to the positive</li>
+    <li><strong>Crisis Flow</strong> — Rapid-access guided path for acute distress</li>
+  </ul>
+</div>
+
+<div class="soothe-section">
+  <h2>Features</h2>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>Professional Voice Narration</h3>
+      <p>Every exercise is guided by clear, calming voice narration — choose from multiple voice options to find the one that works for you.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Works Offline</h3>
+      <p>All core exercises work without an internet connection. Relief is always available, even in airplane mode.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Apple Health Integration</h3>
+      <p>Automatically log Mindful Minutes and mood check-ins to Apple Health after each session.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Siri & Shortcuts</h3>
+      <p>Launch your favorite exercise with a voice command or add it to your Shortcuts automations.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Personalized Recommendations</h3>
+      <p>Soothe learns which tools you use most and surfaces recommendations tailored to your habits.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Customizable Experience</h3>
+      <p>Choose your voice, font theme, color theme, haptic intensity, and countdown pace to make it yours.</p>
+    </div>
+  </div>
+</div>
+
+<div class="highlight-box">
+  <h2>Privacy First. Always.</h2>
+  <p>Soothe was designed with a privacy-first architecture. No accounts. No logins. No tracking. Your personal data never leaves your device.</p>
+  <div class="privacy-badges">
+    <span class="privacy-badge">No Account Required</span>
+    <span class="privacy-badge">No Data Sold</span>
+    <span class="privacy-badge">On-Device Storage</span>
+    <span class="privacy-badge">No Ad Tracking</span>
+  </div>
+</div>
+
+<!-- <div class="soothe-section">
+  <h2>Check-In Reminders</h2>
+  <p>Set optional daily reminders to check in with yourself. A gentle nudge to pause, breathe, and use the tools that keep you grounded — before stress builds up.</p>
+</div> -->
+
+<div class="soothe-section">
+  <h2>Premium</h2>
+  <p>Soothe is free to use with a full set of calming tools. Unlock additional voices and themes with a one-time in-app purchase — no subscriptions, no recurring fees.</p>
+</div>
+
+<hr>
+
+<div class="soothe-links">
+  <a href="/apps/soothe/privacy/">Privacy Policy</a>
+  <span class="sep">&middot;</span>
+  <a href="/apps/soothe/terms/">Terms of Service</a>
+  <span class="sep">&middot;</span>
+  <a href="/apps/soothe/support/">Support</a>
+</div>
