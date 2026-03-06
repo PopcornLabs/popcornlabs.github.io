@@ -6,7 +6,7 @@ title: Support — Soothe
 <nav class="breadcrumb"><a href="/">Home</a> / <a href="/apps/">Apps</a> / <a href="/apps/soothe/">Soothe</a> / Support</nav>
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://apps.apple.com/us/app/soothe-anxiety-panic-relief/id6755748515"><img src="/img/apps/soothe/appIcon.png" alt="Soothe app icon" style="width: 128px; height: 128px; border-radius: 22%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></a>
+  <a href="/apps/soothe/"><img src="/img/apps/soothe/appIcon.png" alt="Soothe app icon" style="width: 128px; height: 128px; border-radius: 22%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></a>
   <br><br>
   <a class="app-store-badge" href="https://apps.apple.com/us/app/soothe-anxiety-panic-relief/id6755748515"><img src="/img/apps/app-store-badge.svg" alt="Download on the App Store"></a>
 </div>
