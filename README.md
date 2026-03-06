@@ -26,5 +26,11 @@ Images are in '/img/team/'
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
+To run locally use the following command:
+
+bundle install && bundle exec jekyll serve
+
+
+
 =========
 For more details, read [documentation](http://jekyllrb.com/)
