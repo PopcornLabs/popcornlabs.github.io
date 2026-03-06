@@ -11,7 +11,7 @@ title: Privacy Policy — Soothe
 
 ## Introduction
 
-Soothe is a crisis-intervention and anxiety relief app for iOS, published by Popcorn Labs. The app guides you through evidence-based calming techniques — including paced breathing, grounding exercises, progressive muscle relaxation, cold splash, distanced self-talk, yoga nidra, and gratitude meditation — using audio-guided scripts with professional voice narration.
+Soothe is a crisis-intervention and anxiety relief app for iOS, published by Popcorn Labs Inc.. The app guides you through evidence-based calming techniques — including paced breathing, grounding exercises, progressive muscle relaxation, cold splash, distanced self-talk, yoga nidra, and gratitude meditation — using audio-guided scripts with professional voice narration.
 
 Your privacy is fundamental to everything we build. Soothe was designed with a privacy-first architecture: your personal data stays on your device, we do not require accounts or logins, and we never sell your data to anyone. This Privacy Policy explains what information Soothe handles, how it is used, and what rights you have.
 
@@ -21,7 +21,7 @@ By using Soothe, you agree to the practices described in this policy. If you do 
 
 ## Data Stored Locally on Your Device
 
-All personal data collected by Soothe is stored exclusively on your device. None of this data is transmitted to Popcorn Labs or any external server.
+All personal data collected by Soothe is stored exclusively on your device. None of this data is transmitted to Popcorn Labs Inc. or any external server.
 
 **First name.** During onboarding, you may enter your first name. This is stored in your device's local storage (UserDefaults) and is used solely to personalize greetings within the app. You are not required to provide your real name.
 
@@ -75,7 +75,7 @@ When pre-recorded audio is unavailable, Soothe uses ElevenLabs' text-to-speech A
 
 ### Apple StoreKit
 
-In-app purchases for premium features (such as additional voices and themes) are processed entirely by Apple through StoreKit. Popcorn Labs does not receive, process, or store any payment information. Apple's terms and privacy policy govern all purchase transactions.
+In-app purchases for premium features (such as additional voices and themes) are processed entirely by Apple through StoreKit. Popcorn Labs Inc. does not receive, process, or store any payment information. Apple's terms and privacy policy govern all purchase transactions.
 
 ---
 
@@ -131,7 +131,7 @@ All user data (your name, preferences, and feature usage history) is stored loca
 - **Uninstall.** Uninstalling Soothe removes all locally stored app data from your device.
 - **HealthKit data.** Data written to Apple Health persists independently of Soothe. To manage or delete HealthKit entries, use the Apple Health app directly.
 
-Popcorn Labs does not retain any personal data on external servers, so there is no server-side data to delete.
+Popcorn Labs Inc. does not retain any personal data on external servers, so there is no server-side data to delete.
 
 ---
 
@@ -159,7 +159,7 @@ If you are located in the European Economic Area (EEA), the United Kingdom, or S
 - **Right to data portability** — You may request your data in a structured, machine-readable format.
 - **Right to object** — You may object to certain processing of your data.
 
-Because Soothe stores all personal data locally on your device and Popcorn Labs does not have access to it, you exercise most of these rights directly through the app's settings or by uninstalling the app. For any additional requests, contact us at [support@popcornlabs.com](mailto:support@popcornlabs.com).
+Because Soothe stores all personal data locally on your device and Popcorn Labs Inc. does not have access to it, you exercise most of these rights directly through the app's settings or by uninstalling the app. For any additional requests, contact us at [support@popcornlabs.com](mailto:support@popcornlabs.com).
 
 **Legal basis for processing.** Where applicable, our legal bases for processing are: your consent (for HealthKit, microphone, notifications, and speech recognition), and our legitimate interest in improving the app (for anonymous TelemetryDeck analytics).
 
@@ -174,7 +174,7 @@ If you are a California resident, the California Consumer Privacy Act (CCPA) pro
 - **Right to opt out of sale** — You have the right to opt out of the sale of your personal information. **Soothe does not sell your personal information.**
 - **Right to non-discrimination** — You will not be discriminated against for exercising your CCPA rights.
 
-As described above, Soothe stores personal data only on your device. Popcorn Labs does not collect, sell, or share personal information as defined by the CCPA. To exercise any rights, you may reset your data within the app, uninstall the app, or contact us at [support@popcornlabs.com](mailto:support@popcornlabs.com).
+As described above, Soothe stores personal data only on your device. Popcorn Labs Inc. does not collect, sell, or share personal information as defined by the CCPA. To exercise any rights, you may reset your data within the app, uninstall the app, or contact us at [support@popcornlabs.com](mailto:support@popcornlabs.com).
 
 ---
 
@@ -194,13 +194,13 @@ We may update this Privacy Policy from time to time. When we make material chang
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or Soothe's data practices, please contact us:
 
-**Popcorn Labs**
+**Popcorn Labs Inc.**
 Email: [support@popcornlabs.com](mailto:support@popcornlabs.com)
 Website: [popcornlabs.com](https://popcornlabs.com)
 
 ---
 
-*This privacy policy applies to the Soothe iOS application published by Popcorn Labs. It does not apply to any third-party websites or services linked from within the app.*
+*This privacy policy applies to the Soothe iOS application published by Popcorn Labs Inc.. It does not apply to any third-party websites or services linked from within the app.*
 
 ---
 
@@ -208,6 +208,6 @@ Website: [popcornlabs.com](https://popcornlabs.com)
 |---|---|
 | **Effective Date** | February 26, 2025 |
 | **Last Updated** | February 26, 2025 |
-| **Published by** | Popcorn Labs |
+| **Published by** | Popcorn Labs Inc. |
 | **Website** | [www.popcornlabs.com](https://www.popcornlabs.com) |
 | **Hosted at** | [popcornlabs.com/apps/soothe/privacy](https://www.popcornlabs.com/apps/soothe/privacy/) |

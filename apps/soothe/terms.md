@@ -13,7 +13,7 @@ title: Terms of Service — Soothe
 
 By downloading, installing, accessing, or using the Soothe application ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not download, install, or use the App.
 
-These Terms constitute a legally binding agreement between you and Popcorn Labs ("we," "us," "our") governing your use of the App. These Terms supplement, and do not replace, Apple's Licensed Application End User License Agreement (EULA) and Apple's Terms and Conditions for the App Store.
+These Terms constitute a legally binding agreement between you and Popcorn Labs Inc. ("we," "us," "our") governing your use of the App. These Terms supplement, and do not replace, Apple's Licensed Application End User License Agreement (EULA) and Apple's Terms and Conditions for the App Store.
 
 We may update these Terms from time to time. Your continued use of the App after changes are posted constitutes acceptance of the revised Terms. We encourage you to review these Terms periodically.
 
@@ -66,7 +66,7 @@ Some techniques in Soothe involve controlled breathing patterns, physical relaxa
 
 ### 2.5 — No Professional Relationship
 
-Use of Soothe does not create a patient-provider, therapist-client, or any other professional healthcare relationship between you and Popcorn Labs or any of its employees, contractors, or affiliates.
+Use of Soothe does not create a patient-provider, therapist-client, or any other professional healthcare relationship between you and Popcorn Labs Inc. or any of its employees, contractors, or affiliates.
 
 ---
 
@@ -94,7 +94,7 @@ Soothe offers optional premium features, including additional narration voices, 
 
 ### 4.2 — Purchase Processing
 
-All in-app purchases are processed by Apple through the App Store. By making a purchase, you agree to Apple's Terms and Conditions, including Apple's payment and refund policies. Popcorn Labs does not directly process, store, or have access to your payment information.
+All in-app purchases are processed by Apple through the App Store. By making a purchase, you agree to Apple's Terms and Conditions, including Apple's payment and refund policies. Popcorn Labs Inc. does not directly process, store, or have access to your payment information.
 
 ### 4.3 — Pricing and Availability
 
@@ -102,7 +102,7 @@ Premium features are offered as one-time (non-subscription) purchases. Prices ar
 
 ### 4.4 — Refunds
 
-Refund requests for in-app purchases must be directed to Apple, as Apple processes all transactions. You may request a refund through Apple's Report a Problem page at [https://reportaproblem.apple.com](https://reportaproblem.apple.com) or by contacting Apple Support. Popcorn Labs cannot issue refunds for App Store purchases.
+Refund requests for in-app purchases must be directed to Apple, as Apple processes all transactions. You may request a refund through Apple's Report a Problem page at [https://reportaproblem.apple.com](https://reportaproblem.apple.com) or by contacting Apple Support. Popcorn Labs Inc. cannot issue refunds for App Store purchases.
 
 ### 4.5 — Restoring Purchases
 
@@ -114,19 +114,19 @@ You may restore previously purchased premium features on any device signed into 
 
 ### 5.1 — Ownership
 
-All content within the App — including but not limited to audio scripts, voice recordings, breathing pattern designs, visual designs, user interface elements, icons, graphics, animations, and software code — is the property of Popcorn Labs or its licensors and is protected by applicable copyright, trademark, and other intellectual property laws.
+All content within the App — including but not limited to audio scripts, voice recordings, breathing pattern designs, visual designs, user interface elements, icons, graphics, animations, and software code — is the property of Popcorn Labs Inc. or its licensors and is protected by applicable copyright, trademark, and other intellectual property laws.
 
 ### 5.2 — Voice Narration
 
-Voice narration audio in Soothe is produced using ElevenLabs voice synthesis technology. The resulting audio content is owned by Popcorn Labs and is used under license in accordance with ElevenLabs' terms of service.
+Voice narration audio in Soothe is produced using ElevenLabs voice synthesis technology. The resulting audio content is owned by Popcorn Labs Inc. and is used under license in accordance with ElevenLabs' terms of service.
 
 ### 5.3 — License to You
 
-Subject to your compliance with these Terms, Popcorn Labs grants you a limited, non-exclusive, non-transferable, revocable license to use the App on devices you own or control, solely for your personal, non-commercial purposes.
+Subject to your compliance with these Terms, Popcorn Labs Inc. grants you a limited, non-exclusive, non-transferable, revocable license to use the App on devices you own or control, solely for your personal, non-commercial purposes.
 
 ### 5.4 — Restrictions
 
-You may not copy, modify, distribute, sell, lease, sublicense, reverse engineer, decompile, or disassemble any part of the App or its content. You may not extract, download, or re-use audio files, scripts, or other media from the App. You may not use the App or its content for any commercial purpose without prior written consent from Popcorn Labs.
+You may not copy, modify, distribute, sell, lease, sublicense, reverse engineer, decompile, or disassemble any part of the App or its content. You may not extract, download, or re-use audio files, scripts, or other media from the App. You may not use the App or its content for any commercial purpose without prior written consent from Popcorn Labs Inc..
 
 ---
 
@@ -183,7 +183,7 @@ Soothe integrates with the following third-party services. Your use of these ser
 
 **Apple Speech Framework** — On-device speech recognition used during certain guided exercises. Audio is processed locally and is not transmitted to external servers (subject to Apple's speech recognition terms).
 
-Popcorn Labs is not responsible for the practices, content, or availability of third-party services. If any third-party service becomes unavailable, certain App features may be affected.
+Popcorn Labs Inc. is not responsible for the practices, content, or availability of third-party services. If any third-party service becomes unavailable, certain App features may be affected.
 
 ---
 
@@ -205,13 +205,13 @@ The calming techniques and informational content provided through the App are of
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
 
-**Popcorn Labs, its officers, directors, employees, contractors, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages**, including but not limited to damages for loss of profits, data, goodwill, or other intangible losses, arising out of or related to your use of or inability to use the App.
+**Popcorn Labs Inc., its officers, directors, employees, contractors, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages**, including but not limited to damages for loss of profits, data, goodwill, or other intangible losses, arising out of or related to your use of or inability to use the App.
 
-**Popcorn Labs shall not be liable for any adverse physical, psychological, or emotional effects** resulting from your use of any technique or feature within the App, including but not limited to breathing exercises, cold splash (dive reflex activation), progressive muscle relaxation, or any other guided exercise.
+**Popcorn Labs Inc. shall not be liable for any adverse physical, psychological, or emotional effects** resulting from your use of any technique or feature within the App, including but not limited to breathing exercises, cold splash (dive reflex activation), progressive muscle relaxation, or any other guided exercise.
 
 **You acknowledge and agree that you use the App and its techniques at your own risk.** You assume full responsibility for your physical and mental health decisions, including the decision to use or discontinue any technique offered by the App.
 
-**In no event shall Popcorn Labs' total aggregate liability exceed the amount you have paid to Popcorn Labs for in-app purchases in the twelve (12) months preceding the claim**, or fifty U.S. dollars (USD $50.00), whichever is greater.
+**In no event shall Popcorn Labs Inc.' total aggregate liability exceed the amount you have paid to Popcorn Labs Inc. for in-app purchases in the twelve (12) months preceding the claim**, or fifty U.S. dollars (USD $50.00), whichever is greater.
 
 Some jurisdictions do not allow the exclusion or limitation of certain warranties or liability. In such jurisdictions, the limitations above shall apply to the fullest extent permitted by law.
 
@@ -219,7 +219,7 @@ Some jurisdictions do not allow the exclusion or limitation of certain warrantie
 
 ## 11. Indemnification
 
-You agree to indemnify, defend, and hold harmless Popcorn Labs, its officers, directors, employees, contractors, and affiliates from and against any claims, liabilities, damages, losses, and expenses (including reasonable attorneys' fees) arising out of or related to your use of the App, your violation of these Terms, or your violation of any applicable law or the rights of any third party.
+You agree to indemnify, defend, and hold harmless Popcorn Labs Inc., its officers, directors, employees, contractors, and affiliates from and against any claims, liabilities, damages, losses, and expenses (including reasonable attorneys' fees) arising out of or related to your use of the App, your violation of these Terms, or your violation of any applicable law or the rights of any third party.
 
 ---
 
@@ -231,7 +231,7 @@ You may stop using the App at any time by uninstalling it from your device. Unin
 
 ### 12.2 — Our Rights
 
-Popcorn Labs reserves the right to modify, suspend, or discontinue the App (or any part of it) at any time, with or without notice, and without liability to you. We may also release updates that change features, techniques, or available content.
+Popcorn Labs Inc. reserves the right to modify, suspend, or discontinue the App (or any part of it) at any time, with or without notice, and without liability to you. We may also release updates that change features, techniques, or available content.
 
 ### 12.3 — Effect of Termination
 
@@ -255,7 +255,7 @@ If any provision of these Terms is found to be unenforceable or invalid by a cou
 
 ## 15. Entire Agreement
 
-These Terms, together with our [Privacy Policy](https://www.popcornlabs.com/apps/soothe/privacy.html) and Apple's Licensed Application End User License Agreement, constitute the entire agreement between you and Popcorn Labs regarding your use of the App, and supersede all prior agreements and understandings.
+These Terms, together with our [Privacy Policy](https://www.popcornlabs.com/apps/soothe/privacy.html) and Apple's Licensed Application End User License Agreement, constitute the entire agreement between you and Popcorn Labs Inc. regarding your use of the App, and supersede all prior agreements and understandings.
 
 ---
 
@@ -269,13 +269,13 @@ We reserve the right to modify these Terms at any time. When we make material ch
 
 If you have any questions or concerns about these Terms, please contact us:
 
-**Popcorn Labs**
+**Popcorn Labs Inc.**
 Email: [support@popcornlabs.com](mailto:support@popcornlabs.com)
 Website: [popcornlabs.com](https://popcornlabs.com)
 
 ---
 
-*These Terms of Service apply to the Soothe iOS application published by Popcorn Labs. They do not apply to any third-party websites, applications, or services linked from within the App.*
+*These Terms of Service apply to the Soothe iOS application published by Popcorn Labs Inc.. They do not apply to any third-party websites, applications, or services linked from within the App.*
 
 ---
 
@@ -283,6 +283,6 @@ Website: [popcornlabs.com](https://popcornlabs.com)
 |---|---|
 | **Effective Date** | February 26, 2026 |
 | **Last Updated** | February 26, 2026 |
-| **Published by** | Popcorn Labs |
+| **Published by** | Popcorn Labs Inc. |
 | **Website** | [www.popcornlabs.com](https://www.popcornlabs.com) |
 | **Hosted at** | [popcornlabs.com/apps/soothe/terms](https://www.popcornlabs.com/apps/soothe/terms.html) |

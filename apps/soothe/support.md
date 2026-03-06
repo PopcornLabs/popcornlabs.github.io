@@ -82,4 +82,4 @@ Please email us at **[support@popcornlabs.com](mailto:support@popcornlabs.com)**
 
 ---
 
-*Published by [Popcorn Labs](https://www.popcornlabs.com)*
+*Published by [Popcorn Labs Inc.](https://www.popcornlabs.com)*
