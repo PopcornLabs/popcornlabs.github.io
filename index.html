@@ -21,7 +21,7 @@ layout: default
 
   <div class="landing-social">
     {% for network in site.social %}
-      <a href="{{ network.url }}"><i class="fa fa-{{ network.title }} fa-lg"></i></a>
+      <a href="{{ network.url }}" aria-label="{{ network.title }}"><i class="fa fa-{{ network.title }} fa-lg" aria-hidden="true"></i></a>
     {% endfor %}
   </div>
 

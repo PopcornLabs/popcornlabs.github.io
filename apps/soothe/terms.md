@@ -255,7 +255,7 @@ If any provision of these Terms is found to be unenforceable or invalid by a cou
 
 ## 15. Entire Agreement
 
-These Terms, together with our [Privacy Policy](https://www.popcornlabs.com/apps/soothe/privacy.html) and Apple's Licensed Application End User License Agreement, constitute the entire agreement between you and Popcorn Labs Inc. regarding your use of the App, and supersede all prior agreements and understandings.
+These Terms, together with our [Privacy Policy](https://www.popcornlabs.com/apps/soothe/privacy/) and Apple's Licensed Application End User License Agreement, constitute the entire agreement between you and Popcorn Labs Inc. regarding your use of the App, and supersede all prior agreements and understandings.
 
 ---
 
@@ -285,4 +285,4 @@ Website: [popcornlabs.com](https://popcornlabs.com)
 | **Last Updated** | February 26, 2026 |
 | **Published by** | Popcorn Labs Inc. |
 | **Website** | [www.popcornlabs.com](https://www.popcornlabs.com) |
-| **Hosted at** | [popcornlabs.com/apps/soothe/terms](https://www.popcornlabs.com/apps/soothe/terms.html) |
+| **Hosted at** | [popcornlabs.com/apps/soothe/terms](https://www.popcornlabs.com/apps/soothe/terms/) |
