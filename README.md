@@ -1,36 +1,7 @@
-Agency Jekyll theme
-====================
+# README
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+This is the popcorn labs web site.
 
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-To run locally use the following command:
+## Local Development, run the following
 
 bundle install && bundle exec jekyll serve
-
-
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)

@@ -1,0 +1,300 @@
+{% assign technique = nil %}
+{% for t in site.data.techniques.techniques %}
+  {% if t.id == page.technique_id %}
+    {% assign technique = t %}
+  {% endif %}
+{% endfor %}
+
+{% assign techniques = site.data.techniques.techniques %}
+{% assign technique_index = nil %}
+{% for t in techniques %}
+  {% if t.id == page.technique_id %}
+    {% assign technique_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% assign prev_index = technique_index | minus: 1 %}
+{% assign next_index = technique_index | plus: 1 %}
+{% assign total = techniques | size %}
+
+<style>
+  .technique-content {
+    max-width: 720px;
+  }
+
+  .technique-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .technique-header-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .technique-header h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .technique-overview {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin-bottom: 2.5rem;
+  }
+
+  .technique-app-store {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .technique-app-store img {
+    height: 32px;
+    width: auto;
+  }
+
+  .technique-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .technique-section h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .technique-list {
+    list-style: none;
+    counter-reset: technique-counter;
+    padding: 0;
+  }
+
+  .technique-list li {
+    counter-increment: technique-counter;
+    padding: 0.75rem 0 0.75rem 2.5rem;
+    position: relative;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .technique-list li:last-child {
+    border-bottom: none;
+  }
+
+  .technique-list li::before {
+    content: counter(technique-counter);
+    position: absolute;
+    left: 0;
+    top: 0.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .findings-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .findings-list li {
+    padding: 0.75rem 0 0.75rem 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .findings-list li:last-child {
+    border-bottom: none;
+  }
+
+  .findings-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.15rem;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+
+  .reference-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .reference-item {
+    padding: 0.75rem 0;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .reference-item:last-child {
+    border-bottom: none;
+  }
+
+  .reference-item .ref-title {
+    font-style: italic;
+  }
+
+  a.ref-title {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  a.ref-title:hover {
+    text-decoration: underline;
+  }
+
+  .reference-item .ref-journal {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .technique-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.9rem;
+  }
+
+  .technique-nav a {
+    color: var(--text-muted);
+  }
+
+  .technique-nav a:hover {
+    color: var(--accent);
+  }
+
+  .technique-nav .nav-prev,
+  .technique-nav .nav-next {
+    max-width: 40%;
+  }
+
+  .technique-nav .nav-next {
+    text-align: right;
+  }
+
+  .placeholder-note {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .technique-list li {
+      padding-left: 2rem;
+    }
+
+    .technique-list li::before {
+      width: 1.5rem;
+      height: 1.5rem;
+      font-size: 0.75rem;
+    }
+  }
+</style>
+
+<div class="technique-content">
+  <div class="technique-header">
+    <img class="technique-header-img" src="{{ technique.image }}" alt="{{ technique.title }}">
+    <h1>{{ technique.title }}</h1>
+  </div>
+
+  <p class="technique-overview">{{ technique.overview }}</p>
+
+  {% if technique.how_it_works.size > 0 %}
+  <div class="technique-section">
+    <h2>How It Works</h2>
+    <ol class="technique-list">
+      {% for item in technique.how_it_works %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
+
+  {% if technique.key_findings.size > 0 %}
+  <div class="technique-section">
+    <h2>Key Research Findings</h2>
+    <ul class="findings-list">
+      {% for finding in technique.key_findings %}
+      <li>{{ finding }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if technique.references.size > 0 %}
+  <div class="technique-section">
+    <h2>References</h2>
+    <ol class="reference-list">
+      {% for ref in technique.references %}
+      <li class="reference-item">
+        {{ ref.authors }} ({{ ref.year }}). {% if ref.url %}<a href="{{ ref.url }}" target="_blank" rel="noopener" class="ref-title">{{ ref.title }}</a>{% else %}<span class="ref-title">{{ ref.title }}</span>{% endif %}. <span class="ref-journal">{{ ref.journal }}</span>{% if ref.detail != "" %}, {{ ref.detail }}{% endif %}.
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
+
+  {% if technique.how_it_works.size == 0 and technique.key_findings.size == 0 %}
+  <div class="placeholder-note">
+    <p>Detailed scientific research for this technique is being compiled. Check back for updates on the evidence behind gratitude-based practices for anxiety relief.</p>
+  </div>
+  {% endif %}
+
+  <div class="technique-nav">
+    <div class="nav-prev">
+      {% if prev_index >= 0 %}
+        {% assign prev = techniques[prev_index] %}
+        <a href="/apps/soothe/techniques/{{ prev.slug }}/">&larr; {{ prev.title }}</a>
+      {% endif %}
+    </div>
+    <div>
+      <a href="/apps/soothe/techniques/">All Techniques</a>
+    </div>
+    <div class="nav-next">
+      {% if next_index < total %}
+        {% assign next_t = techniques[next_index] %}
+        <a href="/apps/soothe/techniques/{{ next_t.slug }}/">{{ next_t.title }} &rarr;</a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="technique-app-store">
+    <span>Try this technique with guided audio narration in Soothe.</span>
+    <a href="https://apps.apple.com/us/app/soothe-anxiety-panic-relief/id6755748515"><img src="/img/apps/app-store-badge.svg" alt="Download on the App Store"></a>
+  </div>
+</div>
