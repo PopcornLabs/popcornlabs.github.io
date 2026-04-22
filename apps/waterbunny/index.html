@@ -1,0 +1,273 @@
+---
+layout: default
+title: "WaterBunny: Hydration Tracker — Popcorn Labs Inc."
+---
+
+<nav class="breadcrumb"><a href="/">Home</a> / <a href="/apps/">Apps</a> / WaterBunny</nav>
+
+<style>
+  .wb-hero {
+    text-align: center;
+    padding: 3rem 0 2rem;
+  }
+
+  .wb-hero-icon {
+    width: 148px;
+    height: 148px;
+    border-radius: 32px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 12px 32px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+  }
+
+  .wb-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+  }
+
+  .wb-hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wb-hero .app-store-badge img {
+    height: 48px;
+    width: auto;
+  }
+
+  .wb-section {
+    margin: 3rem 0;
+  }
+
+  .wb-section h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .theme-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .theme-chip {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 0.3rem 0.85rem;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #0a2a3a 0%, #0d1117 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .highlight-box h2 {
+    margin-top: 0;
+  }
+
+  .highlight-box p {
+    color: var(--text-muted);
+    max-width: 520px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .privacy-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .privacy-badge {
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    border-radius: 100px;
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .wb-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .wb-links a {
+    color: var(--text-muted);
+  }
+
+  .wb-links a:hover {
+    color: var(--accent);
+  }
+
+  .wb-links .sep {
+    color: var(--border);
+  }
+
+  @media (max-width: 600px) {
+    .wb-hero h1 { font-size: 2rem; }
+
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .wb-hero-icon {
+      width: 112px;
+      height: 112px;
+      border-radius: 24px;
+    }
+  }
+</style>
+
+<div class="wb-hero">
+  <a href="/apps/waterbunny/"><img class="wb-hero-icon" src="/img/apps/waterbunny/appIcon.png" alt="WaterBunny app icon"></a>
+  <h1>WaterBunny: Hydration Tracker</h1>
+  <p class="subtitle">Stay Hydrated. Stay Adorable.</p>
+  <a class="app-store-badge" href="https://apps.apple.com/us/app/waterbunny-hydration-tracker/id6760983007"><img src="/img/apps/app-store-badge.svg" alt="Download on the App Store"></a>
+</div>
+
+<hr>
+
+<div class="wb-section">
+  <h2>What is WaterBunny?</h2>
+  <p>WaterBunny is a hydration tracker built around a simple idea: watching a little animal fill up with water is way more motivating than staring at a progress bar. Log your cups throughout the day and watch your chosen animal silhouette gradually fill from the bottom up as you hit your goal.</p>
+  <p>It connects to Apple Health to store your water data alongside everything else about your health, fires friendly reminders when you forget to drink, and tracks caffeine and electrolytes too — all without an account, login, or subscription wall.</p>
+</div>
+
+<div class="wb-section">
+  <h2>Features</h2>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>Animated Animal Silhouettes</h3>
+      <p>Your chosen animal fills with water as you log cups throughout the day. Nine free themes — Bunny, Bear, Horse, Crocodile, Octopus, Shark, Sloth, Walrus, and the rotating Mystery theme — plus additional animals unlocked with Pro.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Apple Health Integration</h3>
+      <p>Water, caffeine, and electrolyte data writes directly to Apple Health. Your hydration history lives alongside your other health data, readable by any app you authorize.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Reminders With Personality</h3>
+      <p>Set hydration reminders on your schedule — gentle (every 3 hours), regular (every 2 hours), or aggressive (every hour). Choose a message tone: Normal, Snarky, Cute, Motivational, Funny, Zen, Science, or All.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Caffeine Tracking</h3>
+      <p>Log caffeine alongside water with one tap. Five presets — Tea, Espresso, Latte, Energy Drink, and Coffee — with accurate mg values written to Apple Health.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Siri &amp; Shortcuts</h3>
+      <p>Log water with a voice command or quick-action notification button. Four App Intents work without opening the app: Log Water, Log Drink, Log Caffeinated Drink, and View Today's Intake.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Insights &amp; Streaks</h3>
+      <p>Track your daily progress with an area chart showing cumulative intake vs. your goal. View streaks, personal bests, and your best single-day volume. Week, Month, and Year views available with Pro.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Electrolyte Tracking (Pro)</h3>
+      <p>Log electrolytes alongside water from a built-in product library — LMNT, Nuun Sport, Liquid IV, and Pinch of Salt — or create custom products with your own mineral breakdown.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Flexible Units</h3>
+      <p>Track in metric (mL/L), US Imperial, or UK Imperial. Cup size snaps to the nearest valid value when you switch — no manual conversion needed.</p>
+    </div>
+  </div>
+</div>
+
+<div class="wb-section">
+  <h2>Animal Themes</h2>
+  <p>Choose your hydration companion. Each theme changes the silhouette on your main screen and swaps the app icon to match. The Mystery theme picks a different animal every day.</p>
+  <div class="theme-list">
+    <span class="theme-chip">Bunny</span>
+    <span class="theme-chip">Bear</span>
+    <span class="theme-chip">Horse</span>
+    <span class="theme-chip">Crocodile</span>
+    <span class="theme-chip">Octopus</span>
+    <span class="theme-chip">Shark</span>
+    <span class="theme-chip">Sloth</span>
+    <span class="theme-chip">Walrus</span>
+    <span class="theme-chip">Mystery (daily)</span>
+    <span class="theme-chip">+ More with Pro</span>
+  </div>
+</div>
+
+<div class="highlight-box">
+  <h2>Privacy First. Always.</h2>
+  <p>No account. No login. No cross-app tracking. Your water data lives on your device and in Apple Health — nowhere else.</p>
+  <div class="privacy-badges">
+    <span class="privacy-badge">No Account Required</span>
+    <span class="privacy-badge">No Data Sold</span>
+    <span class="privacy-badge">On-Device Storage</span>
+    <span class="privacy-badge">No Ad Tracking</span>
+  </div>
+</div>
+
+<div class="wb-section">
+  <h2>Pro</h2>
+  <p>WaterBunny is free with everything you need to track your daily water intake. Unlock additional animal themes, full Insights (Week, Month, and Year views), electrolyte tracking, and the ability to edit past entries — with a single one-time purchase. No subscriptions.</p>
+</div>
+
+<div class="wb-section" style="font-size: 0.85rem; color: var(--text-muted);">
+  <p><strong>Your Health Data:</strong> WaterBunny can write dietary water, caffeine, and electrolyte data to Apple Health — but that data is never sent to our servers. We don't collect it, we don't upload it, and we don't track it. Apple Health data may sync across your devices via iCloud, which is managed entirely by Apple. You control what gets written to Apple Health, and you can revoke access at any time in Settings.</p>
+</div>
+
+<div class="wb-section" style="font-size: 0.85rem; color: var(--text-muted);">
+  <p><strong>Analytics:</strong> WaterBunny uses TelemetryDeck to collect anonymous product-interaction events. No health data is ever included. No advertising or cross-app tracking.</p>
+</div>
+
+<div class="wb-section" style="font-size: 0.85rem; color: var(--text-muted);">
+  <p><strong>AI Content Disclosure:</strong> We use AI tools to help build and improve this product. Some images, graphics, and written content on this site and in the app were generated or assisted by artificial intelligence. Every piece of content is reviewed and curated by humans before it reaches users.</p>
+</div>
+
+<hr>
+
+<div class="wb-links">
+  <a href="/apps/waterbunny/privacy/">Privacy Policy</a>
+  <span class="sep">&middot;</span>
+  <a href="/apps/waterbunny/terms/">Terms of Service</a>
+  <span class="sep">&middot;</span>
+  <a href="/apps/waterbunny/support/">Support</a>
+</div>
